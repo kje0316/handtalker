@@ -11,9 +11,6 @@ image = load_image(
     "https://hf.co/datasets/huggingface/documentation-images/resolve/main/diffusers/input_image_vermeer.png"
 )
 
-import cv2
-from PIL import Image
-import numpy as np
 
 image = np.array(image)
 
